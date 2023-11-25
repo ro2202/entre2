@@ -23,7 +23,7 @@ header{
     display: block ;
     align-items: center;
     justify-content: space-between;
-    background-color:#d35be3;
+    background-color:#000000;
     padding: 50px 35px;
     font-size: medium;
     text-align: center;
@@ -39,7 +39,7 @@ img{
 nav ul li {
     text-align: center;
     display: inline-block;
-    margin: 0 10px;
+    margin: 10px;
 }
 
 a{
