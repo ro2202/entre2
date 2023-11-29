@@ -4,35 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Belu Gurumis</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/estilo.css">
     
 </head>
 <body>
-       <nav>
-            <ul>
-                <li><a href="index.html"> Inicio </a></li>
-                <li><a href="productos.html"> Productos </a></li>
-                <li><a href="recomendaciones.html"> Recomendaciones </a></li>
-                <li><a href="material.html"> Material </a></li>
-                <li><a href="contacto.html"> Contacto </a></li>
-            </ul>
-        </nav>
     <header>
-        <h1>Belu Gurumis</h1>
-        <nav>
-            <a href="Logo Belu">
-            <img class="logo" src="img/belu.com.jpg" alt="Logo de Belu Gurumis">
-            </a>
+      
+        <body class="container-fluid">
+            <!-- NAVBAR -->
+            <header class="navbar navbar-expand-lg  encabezado">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img class="tamLogo" src="img/muestra1..jpg" alt="Logo de Belu Gurumis">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <nav class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav fuentesNav ms-auto">
+                            <li class="nav-item">
+                                <a  aria-current="page" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a  href="html/recomendaciones.html">Recomendaciones</a>
+                            </li>
+                            <li class="nav-item">
+                                <a  href="html/productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a  href="html/contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="html/material.html">Material</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+        
+        
         </nav>
-        <a href="https://api.whatsapp.com/send?phone=3512382693" target="_blank">
+       
+    </header>    
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/muestra1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/muestra2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/muestra3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/muestra4.jpg" class="d-block w-100" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/muestra5.jpeg" class="d-block w-100" alt="">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    <a href="https://api.whatsapp.com/send?phone=3512382693" target="_blank">
             <img class="Logo WhatsApp" src="../img/logo.whatsapp.webp" alt="Logo WhatsApp">
         </a>
-        
-    </header>
     <main>
         <h2>La formula secreta es el amor </h2>
         <p>
-            Mi nobre es Belen, soy de Cordoba capital.
+            Mi nombre es Belen, soy de Cordoba capital.
             
             Me dedico a tejer a crochet,
             mas especificamente amigurumis,
@@ -62,14 +112,6 @@
             al menos por un momento.
         </p>
 
-        <div class="contenedormuestra">
-            <img class="imgmuestras" src="../img/muestra1.jpg" alt="muestras">
-            <img class="imgmuestras" src="../img/muestra2.jpg" alt="muestras">
-            <img class="imgmuestras" src="../img/muestra3.jpg" alt="muestras">
-            <img class="imgmuestras" src="../img/muestra4.jpg" alt="muestras">
-            <img class="imgmuestras" src="../img/muestra5.jpeg" alt="muestras">
-            
-        </div>
 
     </main>
 
@@ -77,5 +119,6 @@
         <h3> Belu Gurumis - Todos los derechos reservados </h3>
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
