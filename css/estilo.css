@@ -6,6 +6,12 @@
 
 body {
   background-color: #ee81c4;
+.WhatsApp{
+    width: 130px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px
+  }
 }
 
 main {
@@ -200,7 +206,5 @@ h3 {
   bottom: 20px;
   right: 20px
 }
-.logoWhatsApp{
-  width: 130px;
-}
+
 /*# sourceMappingURL=estilo.css.map */
