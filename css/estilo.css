@@ -3,7 +3,11 @@
   margin: 0;
   padding: 0;
 }
-
+.Logo{
+  width: 100%;
+  height: 200px;
+  margin: auto;
+}
 body {
   background-color: #ee81c4;
 }
@@ -194,6 +198,7 @@ h3 {
   text-align: center;
   background-color: lightsalmon;
 }
+
 .WhatsApp{
   width: 130px;
   position: fixed;
